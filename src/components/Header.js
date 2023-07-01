@@ -5,10 +5,11 @@ import HighlightIcon from '@material-ui/icons/Highlight';
 function Header() {
   return (
     <header>
+          <HighlightIcon/>
           <h1>
-             <HighlightIcon/>
-             Keeper
+             Notes Keeper
           </h1>
+          
     </header>
   )
 }
